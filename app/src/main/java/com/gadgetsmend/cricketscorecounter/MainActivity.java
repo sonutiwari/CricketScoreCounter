@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        displayForTeamA(8);
+        //displayForTeamA(8);
     }
 /*
     @Override
@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
     */
     public void addOneForTeamB(View v){
         scoreTeamB++;
-        displayForTeamA(scoreTeamB);
+        displayForTeamB(scoreTeamB);
 
     }
 
@@ -102,8 +102,8 @@ public class MainActivity extends AppCompatActivity {
      *Add 2 in the Score of Team B
     */
     public void addTwoForTeamB(View v){
-        scoreTeamB =+ 2;
-        displayForTeamA(scoreTeamA);
+        scoreTeamB += 2;
+        displayForTeamB(scoreTeamB);
 
     }
 
@@ -111,8 +111,8 @@ public class MainActivity extends AppCompatActivity {
      *Add 3 in the Score of Team B
     */
     public void addThreeForTeamB(View v){
-        scoreTeamB =+ 3;
-        displayForTeamA(scoreTeamB);
+        scoreTeamB += 3;
+        displayForTeamB(scoreTeamB);
 
     }
 
@@ -120,8 +120,8 @@ public class MainActivity extends AppCompatActivity {
      *Add 4 in the Score of Team B
     */
     public void addFoureForTeamB(View v){
-        scoreTeamB =+ 4;
-        displayForTeamA(scoreTeamB);
+        scoreTeamB += 4;
+        displayForTeamB(scoreTeamB);
 
     }
 
@@ -131,7 +131,7 @@ public class MainActivity extends AppCompatActivity {
     */
     public void addSixForTeamB(View v){
         scoreTeamB += 6;
-        displayForTeamA(scoreTeamB);
+        displayForTeamB(scoreTeamB);
 
     }
 
