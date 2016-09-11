@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CricketScoreCounter</string>
+    <string name="teamAName">Team A</string>
+    <string name="teamBName">Team B</string>
+    <string name="run1">1 Run</string>
+    <string name="run2">2 Run</string>
+    <string name="run3">3 Run</string>
+    <string name="run4">4 Run</string>
+    <string name="run6">6 Run</string>
+    <string name="initialScore">0</string>
+    <string name="reset">reset</string>
+</resources>
