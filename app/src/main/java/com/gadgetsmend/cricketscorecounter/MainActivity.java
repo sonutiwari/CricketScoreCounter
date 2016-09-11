@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
     /*
      *Add 4 in the Score of Team A
     */
-    public void addFoureForTeamA(View v){
+    public void addFourForTeamA(View v){
         scoreTeamA = scoreTeamA + 4;
         displayForTeamA(scoreTeamA);
 
@@ -119,7 +119,7 @@ public class MainActivity extends AppCompatActivity {
     /*
      *Add 4 in the Score of Team B
     */
-    public void addFoureForTeamB(View v){
+    public void addFourForTeamB(View v){
         scoreTeamB += 4;
         displayForTeamB(scoreTeamB);
 

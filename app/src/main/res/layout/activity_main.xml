@@ -78,7 +78,7 @@
                 android:layout_marginBottom="@dimen/marginTopBottom"
                 android:background="@android:color/holo_orange_dark"
                 android:text="@string/run4"
-                android:onClick="addFoureForTeamA"/>
+                android:onClick="addFourForTeamA"/>
             <Button
                 android:id="@+id/button6"
                 android:layout_width="match_parent"
@@ -162,7 +162,7 @@
                 android:layout_marginBottom="@dimen/marginTopBottom"
                 android:background="@android:color/holo_orange_dark"
                 android:text="@string/run4"
-                android:onClick="addFoureForTeamB"/>
+                android:onClick="addFourForTeamB"/>
             <Button
                 android:id="@+id/buttonTeamB6"
                 android:layout_width="match_parent"
