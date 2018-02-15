@@ -28,7 +28,8 @@
                 android:textColor="#000000"
                 android:textSize="@dimen/textSize"
                 android:fontFamily="sans-serif-medium"
-                tools:targetApi="jelly_bean" />
+                tools:targetApi="jelly_bean"
+                android:textStyle="bold"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_marginTop="@dimen/activity_horizontal_margin"
@@ -37,6 +38,7 @@
                 android:id="@+id/displayScoreTeamA"
                 android:text="@string/initialScore"
                 android:textColor="#000000"
+                android:textStyle="bold"
                 android:textAlignment="center"
                 android:textSize="40sp"/>
             <Button
@@ -114,6 +116,7 @@
                 android:textColor="#000000"
                 android:textAlignment="center"
                 android:textAllCaps="true"
+                android:textStyle="bold"
                 android:textSize="@dimen/textSize"/>
             <TextView
                 android:layout_width="match_parent"
@@ -122,6 +125,7 @@
                 android:layout_marginBottom="@dimen/margin"
                 android:id="@+id/displayScoreTeamB"
                 android:text="@string/initialScore"
+                android:textStyle="bold"
                 android:textColor="#000000"
                 android:textAlignment="center"
                 android:textSize="40sp"/>
