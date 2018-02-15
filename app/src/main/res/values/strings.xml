@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">CricketScoreCounter</string>
-    <string name="teamAName">Team A</string>
-    <string name="teamBName">Team B</string>
+    <string name="teamAName">India</string>
+    <string name="teamBName">South Africa</string>
     <string name="run1">1 Run</string>
     <string name="run2">2 Run</string>
     <string name="run3">3 Run</string>
